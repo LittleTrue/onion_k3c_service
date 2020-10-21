@@ -1,0 +1,33 @@
+{
+    "name": "gxz/cus_declare_service",
+    "type": "library",
+    "keywords": [
+        "onion_k3c_service",
+        "onion_k3c",
+        "k3c_service"
+    ],
+    "authors": [
+        {
+            "name": "littleTrue",
+            "email": "644812368@qq.com",
+            "homepage": "https://www.jianshu.com/u/8775ddf16c8b"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.6",
+        "adbario/php-dot-notation": "^2.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "pimple/pimple": "v2.1.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "onion\\OnionK3cClient\\": "src/client/",
+            "onion\\OnionK3cService\\": "src/service/",
+            "onion\\": "src/"
+        }
+    }
+}
